@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+header {
+    max-width: 1920px;
+    margin: 0;
+    padding: 40px 4%;
+    background-color: #873304;
+    text-align: center;
+    font-size: 18px;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #873304;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    border-bottom: #873304;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens>li>a {
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.contato {
+    padding: 10px 40px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid #3d1700;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50em;
+    margin-top: 1.5em;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5em;
+}
+main section .logoBoys{
+    width: 35em;
+    margin: 3em 0;
+}
+main section .btn-box{
+    display: flex;
+    gap: 20px;
+}
+.btn-box .btn{
+    padding: 20px 45px;
+    background: #3d1700;
+    border-radius: 70px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    transition: all .3s;
+    text-decoration: none;
+}
+.btn-box .btn:hover{
+    background: #250f01;
+}
+.btn-box .btn:focus{
+    background: #250f01;
+}
+main section .text{
+    color: #3d1700;
+    line-height: 22px;
+}
